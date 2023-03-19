@@ -63,5 +63,13 @@ console.log(sumOfTwoNumbers(15, 35));
 /* ----- Objects ----- */
 let s1 = {
     id: 2001,
-    name: "Ashan"
+    name: "Nimal"
 };
+// Optional Properties (eg -: address?: string)
+let s2 = {
+    id: 2001,
+    name: "Nimal",
+    age: 22,
+    address: "Galle"
+};
+console.log(s2.address);
