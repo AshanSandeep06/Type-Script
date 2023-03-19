@@ -72,7 +72,7 @@ let averageMarks = calculateAverageMarks(3, 285);
 console.log("Average Marks : " + averageMarks + "%");
 
 function sumOfTwoNumbers(firstNumber: number, secondNumber?: number) {
-    if(secondNumber){
+    if (secondNumber) {
         return firstNumber + secondNumber;
     }
 
@@ -85,6 +85,9 @@ console.log(sumOfTwoNumbers(15, 35));
 /* ======================================================================== */
 
 /* ----- Objects ----- */
-
+let s1: {id: number, name: string} = {
+    id: 2001,
+    name: "Ashan"
+}
 
 
