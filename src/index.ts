@@ -119,5 +119,18 @@ studentObject.enrollDate(new Date());
 /* ======================================================================== */
 
 /* ----- Type Aliases ----- */
+type Student = {
+    id: number,
+    name: string
+}
+
+let s3:  Student = {
+    id: 2001,
+    name: "Bimal"
+}
+
+console.log(s3);
+
+/* ======================================================================== */
 
 
