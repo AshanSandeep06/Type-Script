@@ -44,7 +44,7 @@ let man: [string, number] = ["Ashan", 22];
 
 /* ----- Functions ----- */
 
-// 1.Parameter-less and return type functions
+// 1.Parameter-less and return type Functions
 function calculate1() {
     return 0;
 }
@@ -62,5 +62,13 @@ function calculate3(): any {
     // return -1;  // return type of any, which has a function that can
     // either return a value or not
 }
+
+// 2.Parameterized Functions
+function calculateAverageMarks(subjectCount: number, totalMarks: number): number {
+    return totalMarks / subjectCount;
+}
+
+let averageMarks = calculateAverageMarks(3, 285);
+console.log("Average Marks : " + averageMarks+"%");
 
 
