@@ -30,33 +30,41 @@ console.log(x);
 let man = ["Ashan", 22];
 /* ======================================================================== */
 /* ----- Functions ----- */
+
 // 1.Parameter-less and return type Functions
 function calculate1() {
     return 0;
 }
+
 console.log(calculate1());
 console.log(typeof calculate1());
+
 function calculate2() {
     return 0;
     // return "name";  // Can not return a string value from a function
     // that has number return type
 }
+
 function calculate3() {
     // return -1;  // return type of any, which has a function that can
     // either return a value or not
 }
+
 // 2.Parameterized Functions
 function calculateAverageMarks(subjectCount, totalMarks) {
     return totalMarks / subjectCount;
 }
+
 let averageMarks = calculateAverageMarks(3, 285);
 console.log("Average Marks : " + averageMarks + "%");
+
 function sumOfTwoNumbers(firstNumber, secondNumber) {
     if (secondNumber) {
         return firstNumber + secondNumber;
     }
     return firstNumber;
 }
+
 console.log(sumOfTwoNumbers(15));
 console.log(sumOfTwoNumbers(15, 35));
 /* ======================================================================== */
@@ -94,6 +102,7 @@ let s3 = {
 };
 console.log(s3);
 /* ======================================================================== */
+
 // Union Operator
 function getNumber(myNumber) {
     console.log("My Number is : " + myNumber);
@@ -102,17 +111,19 @@ function getNumber(myNumber) {
     }
     return myNumber;
 }
+
 console.log(getNumber("15"));
 /* ======================================================================== */
+
 // Nullable Values
 function generate(name) {
     console.log(name);
     if (name) {
         console.log("If Condition Invoked..!");
         console.log(name);
-    }
-    else {
+    } else {
         console.log(name);
     }
 }
+
 generate(null);
