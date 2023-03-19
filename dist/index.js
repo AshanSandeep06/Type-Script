@@ -104,3 +104,4 @@ function getNumber(myNumber) {
 }
 console.log(getNumber("15"));
 /* ======================================================================== */
+// Nullable Values
