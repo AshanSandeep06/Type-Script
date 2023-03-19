@@ -67,9 +67,24 @@ let s1 = {
 };
 // Optional Properties (eg -: address?: string)
 let s2 = {
+    // All Properties Should be declared in this object except Optional Properties Otherwise,
+    // Error has been occurred
     id: 2001,
     name: "Nimal",
     age: 22,
-    address: "Galle"
+    // This address property should not compulsory to this s2 object because of
+    // this property is an Optional Property
+    // address: "Galle"
 };
 console.log(s2.address);
+// Parameterized Functions With Function Expressions
+let studentObject = {
+    id: 2001,
+    name: "Nimal",
+    age: 22,
+    // Arrow functions
+    enrollDate: (date) => {
+        console.log(date);
+    }
+};
+studentObject.enrollDate(new Date());

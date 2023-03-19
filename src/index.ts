@@ -103,4 +103,17 @@ let s2: { id: number, name: string, age: number, address?: string } = {
 }
 console.log(s2.address);
 
+// Parameterized Functions With Function Expressions
+let studentObject: { id: number, name: string, age: number, enrollDate: (date: Date) => void } = {
+    id: 2001,
+    name: "Nimal",
+    age: 22,
+    // Arrow functions
+    enrollDate: (date: Date) => {
+        console.log(date);
+    }
+}
+
+studentObject.enrollDate(new Date());
+
 
