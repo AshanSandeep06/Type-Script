@@ -94,3 +94,12 @@ let s3 = {
 };
 console.log(s3);
 /* ======================================================================== */
+// Union Operator
+function getNumber(myNumber) {
+    console.log("My Number is : " + myNumber);
+    if (typeof myNumber == "string") {
+        return parseInt(myNumber);
+    }
+    return myNumber;
+}
+console.log(getNumber(5));

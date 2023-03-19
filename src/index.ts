@@ -124,7 +124,7 @@ type Student = {
     name: string
 }
 
-let s3:  Student = {
+let s3: Student = {
     id: 2001,
     name: "Bimal"
 }
@@ -133,6 +133,17 @@ console.log(s3);
 
 /* ======================================================================== */
 
+// Union Operator
+function getNumber(myNumber: number | string): number {
+    console.log("My Number is : " + myNumber);
 
+    if (typeof myNumber == "string") {
+        return parseInt(myNumber);
+    }
+
+    return myNumber;
+}
+
+console.log(getNumber("15"));
 
 
