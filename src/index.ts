@@ -82,4 +82,8 @@ function sumOfTwoNumbers(firstNumber: number, secondNumber?: number) {
 console.log(sumOfTwoNumbers(15));
 console.log(sumOfTwoNumbers(15, 35));
 
+/* ======================================================================== */
+
+/* ----- Objects ----- */
+
 
