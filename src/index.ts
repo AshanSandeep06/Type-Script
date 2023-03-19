@@ -9,4 +9,4 @@ console.log(value1 + " " + value2);
 
 // 2.string
 let firstName: string = "Dasun";
-console.log(firstName)
+console.log(firstName);
