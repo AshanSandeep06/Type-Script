@@ -159,3 +159,5 @@ function generate(name: string | null | undefined) {
         console.log(name);
     }
 }
+
+generate("Kamal");
