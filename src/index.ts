@@ -160,4 +160,4 @@ function generate(name: string | null | undefined) {
     }
 }
 
-generate("Kamal");
+generate(null);
