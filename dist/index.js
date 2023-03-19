@@ -5,3 +5,6 @@ console.log("Hello World..!");
 let value1 = 10;
 let value2 = 15.80;
 console.log(value1 + " " + value2);
+// 2.string
+let firstName = "Dasun";
+console.log(firstName);
