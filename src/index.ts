@@ -11,6 +11,10 @@ console.log(value1 + " " + value2);
 let firstName: string = "Dasun";
 console.log(firstName);
 
+// 2.string
+let flag: boolean = false;
+console.log(flag);
+
 /* ======================================================================== */
 
 /* ----- Arrays ----- */
@@ -39,11 +43,24 @@ let man: [string, number] = ["Ashan", 22];
 /* ======================================================================== */
 
 /* ----- Functions ----- */
+
+// 1.Parameter-less and return type methods
 function calculate1() {
     return 0;
 }
 
 console.log(calculate1());
 console.log(typeof calculate1());
+
+function calculate2(): number {
+    return 0;
+    // return "name";  // Can not return a string value from a function
+    // that has number return type
+}
+
+function calculate3(): any {
+    // return -1;  // return type of any, which has a function that can
+    // either return a value or not
+}
 
 
