@@ -26,3 +26,5 @@ for (let name of stringArray) {
 
 /* ======================================================================== */
 
+// Union Operator (OR)
+let array: (string | number)[] = [10, 20, "30"];
