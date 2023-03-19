@@ -61,3 +61,7 @@ console.log(sumOfTwoNumbers(15));
 console.log(sumOfTwoNumbers(15, 35));
 /* ======================================================================== */
 /* ----- Objects ----- */
+let s1 = {
+    id: 2001,
+    name: "Ashan"
+};
