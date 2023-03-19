@@ -9,4 +9,8 @@ console.log(value1 + " " + value2);
 let firstName = "Dasun";
 console.log(firstName);
 /* ======================================================================== */
-/* ----- Objects ----- */ 
+/* ----- Arrays ----- */
+let numberArray1 = [10.2, 20, 30.65, 40, 50]; // 1st method
+let numberArray2 = [10.2, 20, 30.65, 40, 50]; // 2nd method
+let stringArray = ["Dasun", "Sandun", "Kasun"];
+/* ======================================================================== */ 

@@ -13,4 +13,10 @@ console.log(firstName);
 
 /* ======================================================================== */
 
-/* ----- Objects ----- */
+/* ----- Arrays ----- */
+let numberArray1: number[] = [10.2, 20, 30.65, 40, 50]; // 1st method
+let numberArray2: Array<number> = [10.2, 20, 30.65, 40, 50]; // 2nd method
+
+let stringArray: string[] = ["Dasun", "Sandun", "Kasun"];
+
+/* ======================================================================== */
