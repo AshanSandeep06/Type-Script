@@ -105,3 +105,13 @@ function getNumber(myNumber) {
 console.log(getNumber("15"));
 /* ======================================================================== */
 // Nullable Values
+function generate(name) {
+    console.log(name);
+    if (name) {
+        console.log("If Condition Invoked..!");
+        console.log(name);
+    }
+    else {
+        console.log(name);
+    }
+}
