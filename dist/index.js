@@ -26,3 +26,9 @@ console.log(x);
 // Tuple
 let man = ["Ashan", 22];
 /* ======================================================================== */
+/* ----- Functions ----- */
+function calculate1() {
+    return 0;
+}
+console.log(calculate1());
+console.log(typeof calculate1());
