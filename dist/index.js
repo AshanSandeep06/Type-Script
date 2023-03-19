@@ -51,3 +51,11 @@ function calculateAverageMarks(subjectCount, totalMarks) {
 }
 let averageMarks = calculateAverageMarks(3, 285);
 console.log("Average Marks : " + averageMarks + "%");
+function sumOfTwoNumbers(firstNumber, secondNumber) {
+    if (secondNumber) {
+        return firstNumber + secondNumber;
+    }
+    return firstNumber;
+}
+console.log(sumOfTwoNumbers(15));
+console.log(sumOfTwoNumbers(15, 35));
