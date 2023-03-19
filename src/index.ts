@@ -44,7 +44,7 @@ let man: [string, number] = ["Ashan", 22];
 
 /* ----- Functions ----- */
 
-// 1.Parameter-less and return type methods
+// 1.Parameter-less and return type functions
 function calculate1() {
     return 0;
 }

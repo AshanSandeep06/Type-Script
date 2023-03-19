@@ -8,6 +8,9 @@ console.log(value1 + " " + value2);
 // 2.string
 let firstName = "Dasun";
 console.log(firstName);
+// 2.string
+let flag = false;
+console.log(flag);
 /* ======================================================================== */
 /* ----- Arrays ----- */
 let numberArray1 = [10.2, 20, 30.65, 40, 50]; // 1st method
@@ -27,8 +30,18 @@ console.log(x);
 let man = ["Ashan", 22];
 /* ======================================================================== */
 /* ----- Functions ----- */
+// 1.Parameter-less and return type functions
 function calculate1() {
     return 0;
 }
 console.log(calculate1());
 console.log(typeof calculate1());
+function calculate2() {
+    return 0;
+    // return "name";  // Can not return a string value from a function
+    // that has number return type
+}
+function calculate3() {
+    // return -1;  // return type of any, which has a function that can
+    // either return a value or not
+}
