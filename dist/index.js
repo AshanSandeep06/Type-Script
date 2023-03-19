@@ -88,3 +88,5 @@ let studentObject = {
     }
 };
 studentObject.enrollDate(new Date());
+/* ======================================================================== */
+/* ----- Type Aliases ----- */
