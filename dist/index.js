@@ -8,3 +8,5 @@ console.log(value1 + " " + value2);
 // 2.string
 let firstName = "Dasun";
 console.log(firstName);
+/* ======================================================================== */
+/* ----- Objects ----- */ 
