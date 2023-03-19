@@ -116,4 +116,8 @@ let studentObject: { id: number, name: string, age: number, enrollDate: (date: D
 
 studentObject.enrollDate(new Date());
 
+/* ======================================================================== */
+
+/* ----- Type Aliases ----- */
+
 
