@@ -115,3 +115,4 @@ function generate(name) {
         console.log(name);
     }
 }
+generate("Kamal");
