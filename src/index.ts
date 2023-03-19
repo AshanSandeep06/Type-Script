@@ -28,3 +28,11 @@ for (let name of stringArray) {
 
 // Union Operator (OR)
 let array: (string | number)[] = [10, 20, "30"];
+
+// any (Can be given any data type)
+let x: any = 10;
+console.log(x);
+
+// Tuple
+
+/* ======================================================================== */

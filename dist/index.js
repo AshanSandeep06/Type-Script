@@ -17,4 +17,11 @@ let stringArray = ["Dasun", "Sandun", "Kasun"];
 for (let name of stringArray) {
     console.log(name);
 }
-/* ======================================================================== */ 
+/* ======================================================================== */
+// Union Operator (OR)
+let array = [10, 20, "30"];
+// any (Can be given any data type)
+let x = 10;
+console.log(x);
+// Tuple
+/* ======================================================================== */
