@@ -102,4 +102,5 @@ function getNumber(myNumber) {
     }
     return myNumber;
 }
-console.log(getNumber(5));
+console.log(getNumber("15"));
+/* ======================================================================== */
