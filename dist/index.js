@@ -13,4 +13,8 @@ console.log(firstName);
 let numberArray1 = [10.2, 20, 30.65, 40, 50]; // 1st method
 let numberArray2 = [10.2, 20, 30.65, 40, 50]; // 2nd method
 let stringArray = ["Dasun", "Sandun", "Kasun"];
+// Iterating array values
+for (let name of stringArray) {
+    console.log(name);
+}
 /* ======================================================================== */ 

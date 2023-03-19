@@ -19,4 +19,9 @@ let numberArray2: Array<number> = [10.2, 20, 30.65, 40, 50]; // 2nd method
 
 let stringArray: string[] = ["Dasun", "Sandun", "Kasun"];
 
+// Iterating array values
+for (let name of stringArray) {
+    console.log(name);
+}
+
 /* ======================================================================== */
